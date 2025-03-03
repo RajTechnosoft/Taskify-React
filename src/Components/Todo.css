@@ -1,0 +1,179 @@
+.Todo {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(174, 87, 87);
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column;
+  align-items: center; */
+  padding: 1rem;
+  min-height: 100vh;
+}
+header {
+  margin-top: 2rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.Todo header h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.input,
+input {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  box-shadow: 0px 0px 3px rgb(4, 64, 228);
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+
+  padding: 0.7rem;
+  border: none;
+  box-shadow: 0px 0px 3px rgb(4, 64, 228);
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.form-content {
+  width: fit-content;
+  min-width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px rgb(2, 10, 255);
+}
+.form-content h2 {
+  margin: 1rem;
+  opacity: 0.9;
+  font-family: monotype;
+}
+.selects {
+  display: flex;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 3px rgb(0, 60, 255);
+  border-radius: 0.5rem;
+  justify-content: space-between;
+}
+select {
+  width: 49%;
+  padding: 1rem;
+  border: none;
+
+  /* box-shadow: 0px 0px 3px black; */
+}
+p {
+  text-align: start;
+  width: 100%;
+  margin: 1rem;
+}
+.startTimeDiv,
+.EndTimeDiv {
+  width: 49%;
+}
+.Timings {
+  display: flex;
+
+  padding: 0.5rem;
+  box-shadow: 0px 0px 3px rgb(61, 6, 244);
+  border-radius: 0.5rem;
+  justify-content: space-between;
+}
+.TaskSubmitBtn {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(59, 21, 227);
+  color: white;
+  font-weight: bold;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.SingleTask {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+  box-shadow: 0px 0px 0.5rem rgb(0, 0, 0);
+}
+.TaskSubmitBtn:hover {
+  box-shadow: 0px 0rem 1rem rgb(30, 149, 30);
+  transition: 0.3s;
+}
+.TaskDoneBtn {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: green;
+  cursor: pointer;
+}
+.TaskEditBtn {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 11, 128);
+  cursor: pointer;
+}
+.TaskDltBtn {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.ClearAllbtn {
+  width: 100%;
+  height: fit-content;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+.addTaskBtn {
+  display: none;
+  height: fit-content;
+  /* background-color: red; */
+  text-align: center;
+  padding: 0.5rem 0px 0px 0px;
+}
+.ClearAllbtn:hover {
+  box-shadow: 0px 0rem 1rem rgb(245, 103, 103);
+  transition: 0.3s;
+}
+.red {
+  background-color: red;
+}
+.FormBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

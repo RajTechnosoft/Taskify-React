@@ -1,0 +1,123 @@
+@media (max-width: 1414px) {
+  .Content {
+    width: 50%;
+  }
+}
+@media (max-width: 1088px) {
+  .addTaskBtn {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  .Content {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    /* background-color: red; */
+  }
+  .Navbar {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (max-width: 554px) {
+  .TaskHeader {
+    font-size: 1rem;
+    padding: 0px 0.5rem;
+  }
+  .container {
+    margin: 0.5rem 0px;
+    padding: 0px;
+  }
+  .Dashboard {
+    padding: 0px;
+    box-shadow: 0px 0px 0px black;
+  }
+  .content {
+    padding: 0px;
+  }
+  .Navbar {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  form {
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .form-content {
+    /* width: 300px !important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 97%;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px black;
+  }
+  .addTaskBtn {
+    padding: 0.5rem 0px 0px 0px;
+  }
+}
+@media (max-width: 450px) {
+  .Timings {
+    flex-direction: column;
+    width: 100%;
+  }
+  .startTimeDiv,
+  .EndTimeDiv {
+    width: 100%;
+  }
+  option {
+    width: 50%;
+  }
+  textarea {
+    height: 60px;
+    font-size: 1.2rem;
+  }
+  input {
+    font-size: 1.2rem;
+  }
+  .Timings {
+    display: flex;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 3px rgb(64, 0, 255);
+    border-radius: 0.5rem;
+    /* background-color: red; */
+    justify-content: space-between;
+  }
+  input[type="datetime-local"] {
+    box-shadow: 0px 0px 0px black;
+  }
+  .TaskDetails {
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 1rem;
+  }
+}
